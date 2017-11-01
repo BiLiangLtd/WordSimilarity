@@ -63,7 +63,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     classifiers=[
-        'License :: OSI Approved :: Apache License',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.5',
         'Intended Audience :: Developers',
