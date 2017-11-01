@@ -47,7 +47,7 @@ AUTHOR_EMAIL = u"commissarster@qq.com"
 
 URL = "https://github.com/BiLiangLtd/WordSimilarity"
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 # """
 # 当前包的版本
 # """
