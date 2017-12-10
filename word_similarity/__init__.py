@@ -38,7 +38,7 @@ class SimilarBase(object):
         :return:
         '''
 
-        file_obj = open(file_path, 'r')
+        file_obj = open(file_path, 'r', encoding='UTF-8')
         line_num = 0
         while True:
             line_num += 1
