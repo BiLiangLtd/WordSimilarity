@@ -108,7 +108,7 @@ class WordSimilarity2010(SimilarBase):
         self.degree = 180
         self.PI = math.pi
 
-    def similarity(self, w1, w2):
+    def similarity(self, w1: str, w2: str):
         '''
         判断两个词的相似性。
         :param w1: [string]
@@ -178,7 +178,7 @@ class WordSimilarity2010(SimilarBase):
         """
         return coeff * math.cos(n * self.PI / self.degree) * ((n - k + 1) / n)
 
-    def get_common_layer(self, ca, cb):
+    def get_common_layer(self, ca: list[str], cb: list[str]):
         '''
         返回相应的layer层
         :param ca:     [list(str)] 分解后的编码。
@@ -211,10 +211,10 @@ class WordSimilarity2010(SimilarBase):
         else:
             return abs(int(c1[4]) - int(c2[4]))
 
-    def get_n(self, common_layer):
+    def get_n(self, common_layer: list[str]):
         '''
         返回相应结点下有多少个同级子结点。
-        :param common_layer:    [listr(str)]相同的结点。
+        :param common_layer:    [list(str)]相同的结点。
         :return:    int
         '''
 
