@@ -47,7 +47,7 @@ AUTHOR_EMAIL = u"commissarster@qq.com"
 
 URL = "https://github.com/BiLiangLtd/WordSimilarity"
 
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 # """
 # 当前包的版本
 # """
@@ -76,7 +76,7 @@ setup(
     license=LICENSE,
     packages=PACKAGES,
     package_data={
-        "": ['*.txt',"*.jpg","*.pdf"]
+        "": ['*.txt']
     },
     exclude=["test.*","test*","*.log"],
     include_package_data=True,

@@ -22,6 +22,7 @@ class TestWordSimilarity(unittest.TestCase):
         for s_a in sample_list:
             sim_a = ws_tool.similarity(w_a,s_a)
             print(w_a, s_a, '相似度为', sim_a)
+            
         # 人民 国民 相似度为 1
         # 人民 群众 相似度为 0.9576614882494312
         # 人民 党群 相似度为 0.8978076452338418
